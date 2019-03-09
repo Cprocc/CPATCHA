@@ -37,7 +37,7 @@ class CrackSlider():
         template_img.save('template.png')
         local_img = Image.open('target.jpg')
         size_loc = local_img.size
-        # self.zoom = 320 / int(size_loc[0])
+        self.zoom = 320 / int(size_loc[0])
 
     def get_tracks(self, distance):
         print(distance)
