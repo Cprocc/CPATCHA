@@ -25,7 +25,7 @@ def ease_out_expo(x):
 def ease_out_bounce(x):
     n1 = 7.5625
     d1 = 2.75
-    if x < 1 / d1 :
+    if x < 1 / d1:
         return n1 * x * x
     elif x < 2 / d1:
         x -= 1.5 / d1

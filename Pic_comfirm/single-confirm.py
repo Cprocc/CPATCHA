@@ -1,7 +1,8 @@
 import cv2
 
-base = cv2.imread('base1.jpg', 0)
-aim = cv2.imread('aim2.jpg', 0)
+# 采用灰度值的原因，图片是静态的，对于光照和亮度的依赖不大
+base = cv2.imread('base.jpg', 0)
+aim = cv2.imread('aim.jpg', 0)
 
 h, w = aim.shape[:2]
 
