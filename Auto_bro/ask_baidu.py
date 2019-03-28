@@ -12,5 +12,5 @@ kw = browser.find_element_by_id("kw")
 kw.send_keys("selenium", Keys.RETURN)
 
 # 截屏
-time.sleep(0.5)
+time.sleep(1)
 browser.save_screenshot("temp.png")

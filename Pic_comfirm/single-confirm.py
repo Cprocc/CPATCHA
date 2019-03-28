@@ -4,6 +4,13 @@ import cv2
 base = cv2.imread('base.jpg', 0)
 aim = cv2.imread('aim.jpg', 0)
 
+
+cv2.imshow('mix_base.jpg', base)
+cv2.waitKey(0)
+
+cv2.imshow('mix_base.jpg', aim)
+cv2.waitKey(0)
+
 h, w = aim.shape[:2]
 
 # 匹配函数的返回值是幅图灰度图像，在这幅图中最白的地方表示最大的匹配
